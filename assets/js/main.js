@@ -32,6 +32,7 @@ function validCam() {
     for(var i = 0; i < cam.length; i++) {
         if(cam[i].checked) {
             camera = cam[i].value;
+            console.log(camera);
         }
     }
 }

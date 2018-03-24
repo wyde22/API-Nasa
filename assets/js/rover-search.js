@@ -14,7 +14,7 @@ class roverSearch {
         });
     }
 
-    buildDomRovers(result) {
-    console.log(result);
+    static buildDomRovers(result) {
+        console.log(result);
     }
 }

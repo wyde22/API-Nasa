@@ -16,6 +16,8 @@ class nasaAPI {
                     .replace('{CAMERA}', camera)
                     .replace('{API_KEY}', this.API_KEY);
 
+                console.log(url);
+
                 let req = new XMLHttpRequest();
 
                 req.onreadystatechange = function (event) {
