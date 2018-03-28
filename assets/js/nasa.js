@@ -16,8 +16,6 @@ class nasaAPI {
                     .replace('{CAMERA}', camera)
                     .replace('{API_KEY}', this.API_KEY);
 
-                console.log(url);
-
                 let req = new XMLHttpRequest();
 
                 req.onreadystatechange = function (event) {
@@ -27,6 +25,7 @@ class nasaAPI {
                             var result = JSON.parse(this.responseText);
 
                             if (result) {
+                                console.log(result);
                                 resolve(result);
                             } else {
                                 reject("pas de resultat");
