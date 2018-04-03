@@ -35,12 +35,14 @@ class roverSearch {
         let roverLanding = result.photos[0].rover.landing_date;
         let camName = result.photos[0].camera.full_name;
 
+        let dateLaunch = new Date(roverLaunch);
+        let dateLanding = new Date(roverLanding);
 
-        infosRovers.innerHTML = roverName;
-        infosStatus.innerHTML = roverStatus;
-        infosLaunch.innerHTML = roverLaunch;
+        infosRovers.innerHTML = "Rover : " + roverName;
+        infosStatus.innerHTML = "Status : " + roverStatus;
+        infosLaunch.innerHTML = "Launch Date : " + dateLaunch.toLocaleDateString();
         infosCam.innerHTML = camName;
-        infosLanding.innerHTML = roverLanding;
+        infosLanding.innerHTML = "Landing Date : " + dateLanding.toLocaleDateString();
 
         photosRovers.innerHTML = "";
         dashboard.innerHTML = "";

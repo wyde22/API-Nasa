@@ -16,6 +16,15 @@
     font-size: 8em;
 }
 
+#dashboard {
+    background: #111111;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #2D3E50;
+    font-weight: bold;
+}
+
 #dashboard div span {
     display: block;
 }
