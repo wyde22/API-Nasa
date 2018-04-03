@@ -6,3 +6,16 @@
     background-color: #000;
     opacity: 0.6;
 }
+
+.fa-space-shuttle {
+    margin-right: 45px;
+}
+
+.stylePers {
+    color: #fff;
+    font-size: 8em;
+}
+
+#dashboard div span {
+    display: block;
+}

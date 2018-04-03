@@ -25,7 +25,6 @@ class nasaAPI {
                             var result = JSON.parse(this.responseText);
 
                             if (result) {
-                                console.log(result);
                                 resolve(result);
                             } else {
                                 reject("pas de resultat");

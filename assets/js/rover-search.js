@@ -64,19 +64,18 @@ class roverSearch {
             for(let i = 0; i < datasPhotos.length; i++) {
                 let photoRover = datasPhotos[i];
 
-                console.log(photoRover);
+                //console.log(photoRover);
 
                 let div = document.createElement('div');
 				div.className = "item-photos l-box pure-u-md-1-2 pure-u-lg-1-4";
                 let img = document.createElement('img');
                 img.className = "pure-img";
 
-
-
                 photosRovers.appendChild(div);
 				img.src = photoRover.img_src;
                 div.appendChild(img);
             }
         }
+
     }
 }
