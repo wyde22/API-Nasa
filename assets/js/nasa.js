@@ -3,7 +3,7 @@ class nasaAPI {
     //https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY
 
     constructor() {
-        this.API_KEY = "jreP4FHvZSF5ulpnCdTjrP3MVHLPgWIZg47IalIt";
+        this.API_KEY = "[YOUR-API-KEY]";
         this.ROVER = "https://api.nasa.gov/mars-photos/api/v1/rovers/{ROVERS}/photos?sol=100&camera={CAMERA}&api_key={API_KEY}";
         this.URL_EARTH_DATE = "{ROVER}earth_date={DATE}&api_key={API_KEY}";
     }
